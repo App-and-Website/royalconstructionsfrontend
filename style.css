@@ -391,4 +391,6 @@ margin-top: 12px;
 .footer5-bottom-section .footer-bottom-area .footer-menu-area {
     align-items: flex-start;
 }
-
+.testimonial_section h4{
+    font-weight: 600;
+}
