@@ -5,8 +5,15 @@
 
 
 .topbar_custom{
-    padding: 6px 32px!important;
+    padding: 6px 0px!important;
     background: #F5EFE2!important;
+}
+.outer_topbar{
+    background: #F5EFE2!important;   
+}
+.outer_header{
+    background: #fff!important;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
 }
 .topbar_custom .social_icons a{
     margin-left: 8px;
@@ -22,8 +29,7 @@
 }
 
 .header_custom{
-    padding-top: 5px!important;
-    padding-bottom: 5px!important;
+    padding: 5px 0 5px 0!important;
 }
 .homepage5-body .header-area.homepage5 .site-logo {
     height: 80px;
@@ -50,6 +56,8 @@
 }
 .mobile_header_custom{
    padding: 5px;
+   width: 100vw!important;
+   overflow: hidden!important;
 }
 .mobile_logo{
     height: 60px!important;
@@ -69,9 +77,6 @@
 }
 .topbar_custom{
     padding:  6px 15px!important;
-}
-.mobile-nav-icon {
-  margin-right: 10px;
 }
 .topbar_custom ul{
     margin-left: 5px;
@@ -99,6 +104,14 @@
 }
 
 
+.hero_main{
+    margin-top: 120px;;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .hero_main{
+      margin-top: 100px;;
+  }
+  }
 .banner_desc{
     color: #ddd;
     margin-top: 20px;
