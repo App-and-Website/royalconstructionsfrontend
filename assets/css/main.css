@@ -749,7 +749,7 @@ Location:
   line-height: 16px;
   display: inline-block;
   transition: all 0.4s;
-  background: var(--ztc-bg-bg-8);
+  background: #b18f40;
   border-radius: 80px;
   padding: 17px 24px;
   position: relative;
@@ -772,7 +772,7 @@ Location:
   display: inline-block;
   border-radius: 50%;
   transition: all 0.4s;
-  background: #446A64;
+  background: #977b3a;
   left: 5px;
   top: 5px;
   z-index: -1;
@@ -1195,7 +1195,7 @@ Location:
 }
 
 .heading3 h5 {
-  color: var(--ztc-text-text-10);
+  color: #b18f40;
   font-family: var(--ztc-family-font2);
   font-size: var(--ztc-font-size-font-s18);
   font-style: normal;
@@ -1204,7 +1204,7 @@ Location:
   letter-spacing: 1.8px;
   text-transform: uppercase;
   border-radius: 64px;
-  background: rgba(20, 69, 61, 0.1);
+  background: #F5EFE2;
   padding: 10px 14px;
   display: inline-block;
 }

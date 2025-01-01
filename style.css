@@ -408,3 +408,113 @@ margin-top: 12px;
 .testimonial_section h4{
     font-weight: 600;
 }
+
+
+
+.page_hero_inner h1{
+    color: #fff;
+}
+.page_hero_main{
+    display: flex;
+    justify-content: center;
+}
+.page_hero_inner{
+    width: 80%;
+}
+.page_hero_inner h1 {
+    color: #fff;
+    font-family: var(--ztc-family-font2);
+    font-size: var(--ztc-font-size-font-s44);
+    font-style: normal;
+    font-weight: var(--ztc-weight-bold);
+    line-height: 54px;
+}
+.button_dark a{
+    background: #111;
+}
+.button_dark a:hover{
+    background: #000;
+}
+.mvv_image img{
+   border-radius: 6px;
+}
+.mvv_section{
+    background: #F5EFE2;
+    padding: 60px 0 20px 0;
+}
+
+.values_list{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.values_list li{
+    background: #fff;
+    padding: 4px 10px;
+    border-radius: 6px;  
+    margin-bottom: -10px;
+    font-weight: 600;
+}
+.why_choose_us_section{
+    background: #fff!important;
+}
+.why_choose_us_section::after{
+    background: #fff!important;
+}
+.why_choose_row .others-box{
+    background: #fcf9f3;
+    border: 2px solid #bd9842;
+    margin-bottom: 25px;
+}
+.why_choose_row .others-box:hover{
+    background: #fcf9f3;
+}
+.why_choose_row .others-box:hover p{
+    color: #000;
+}
+.why_choose_row p{
+    margin-bottom: 15px;
+    font-weight: 700!important;
+}
+
+@media (max-width: 1200px) {
+    .page_hero_inner{
+        width: 100%;
+    }
+}
+@media (max-width: 992px) {
+    .apage_about_row{
+        display: flex;
+        flex-direction: column-reverse; 
+    }
+    .property3-section-area .property-images-area {
+        margin-bottom: 70px;
+        margin-top: 100px;
+    }
+}
+
+@media (max-width: 767px) {
+    .page_hero_inner h1 {
+        font-size: var(--ztc-font-size-font-s32);
+        line-height: 40px;
+    }
+    .property3-section-area .property-images-area {
+        margin-bottom: -25px;
+        margin-top: 40px;
+    }
+    .property3-section-area .property-images-area .img2{
+        display: none;
+    }
+   .mvv_image{
+        margin-bottom: 50px;
+    }
+    .why_choose_row .others-box{
+        margin-bottom: 0px;
+    }
+    .why_choose_us_section {
+        padding-bottom: 20px!important;
+    }
+}
+
+
