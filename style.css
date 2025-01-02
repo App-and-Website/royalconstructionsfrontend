@@ -518,3 +518,19 @@ margin-top: 12px;
 }
 
 
+.contact-inner-area .contact-inner-boxarea {
+    background: #F5EFE2;
+}
+.contact-inner-area .contact-inner-boxarea .contact-box:hover{
+    background: #c29f50;
+}
+.contact_page_main .contact-box i{
+    color:#a08034;
+    font-size: 20px;
+}
+.email_contactt a{
+   word-break: break-all;
+}
+
+
+
