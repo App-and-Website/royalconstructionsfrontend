@@ -584,3 +584,23 @@ margin-top: 12px;
     }
 }
 
+.project_details_section{
+    margin-top: 160px;
+    margin-bottom: 50px;
+}
+.product_desc_iconlist{
+    display: flex;
+    gap: 30px;
+}
+.product_desc_iconlist a{
+    color: #000;
+    font-weight: 600;
+}
+.project_plan{
+    background: #F5EFE2;
+    padding: 25px;
+    border-radius: 12px;
+}
+.project_plan h3{
+    padding-bottom:20px;
+}
