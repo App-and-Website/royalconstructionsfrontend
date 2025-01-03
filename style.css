@@ -597,10 +597,31 @@ margin-top: 12px;
     font-weight: 600;
 }
 .project_plan{
-    background: #F5EFE2;
+    background: #f5f4f3;
     padding: 25px;
     border-radius: 12px;
 }
 .project_plan h3{
     padding-bottom:20px;
 }
+.blog-details-leftarea .blog-details-left .category-area {
+    background: #f5f4f3;
+}
+.gallery_row_main{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+@media (max-width: 767px) {
+    .project_details_section {
+        margin-top: 140px;
+    }
+    .gallery_row_main{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+}
+
+
+
+
+

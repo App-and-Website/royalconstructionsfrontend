@@ -26,6 +26,13 @@
     <!--=====  JS SCRIPT LINK =======-->
     <script src="assets/js/plugins/jquery-3-6-0.min.js"></script>
 
+    <!-- gallery fancy box -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css" integrity="sha512-nNlU0WK2QfKsuEmdcTwkeh+lhGs6uyOxuUs+n+0oXSYDok5qy0EI0lt01ZynHq6+p/tbgpZ7P+yUb+r71wqdXg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- share this -->
+    <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=66fcde7935407b00197ad27a&product=inline-share-buttons&source=platform" async="async"></script>
+
 </head>
 <body class="homepage5-body">
 
@@ -250,150 +257,75 @@
                     <p>Nestled in the heart of the city, Diamond Apartments offer a perfect blend of luxury and convenience. These elegantly designed residence boast spacious layouts, modern amenities, and stunning city views, providing a sanctuary.</p>
                     <div class="space16"></div>
                     <p>Each apartment features high-end finishes, including granite countertops, stainless steel appliances, hardwood floors, ensuring both style comfort.</p>
-                    <div class="row">
-                        <div class="col-lg-6 col-md-6">
-                            <div class="list-area">
-                                <div class="icons">
-                                    <img src="assets/img/icons/apartment-icon1.svg" alt="">
-                                </div>
-                                <div class="text">
-                                    <a href="#">Lock On Bedroom </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6">
-                            <div class="list-area">
-                                <div class="icons">
-                                    <img src="assets/img/icons/apartment-icon2.svg" alt="">
-                                </div>
-                                <div class="text">
-                                    <a href="#">Private Entrance </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6">
-                            <div class="list-area">
-                                <div class="icons">
-                                    <img src="assets/img/icons/apartment-icon3.svg" alt="">
-                                </div>
-                                <div class="text">
-                                    <a href="#">Outdoor Dining Area </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6">
-                            <div class="list-area">
-                                <div class="icons">
-                                    <img src="assets/img/icons/apartment-icon4.svg" alt="">
-                                </div>
-                                <div class="text">
-                                    <a href="#">Patio Or Balcony </a>
-                                </div>
-                            </div>
-                        </div>
 
-                        <div class="col-lg-6 col-md-6">
-                            <div class="list-area">
-                                <div class="icons">
-                                    <img src="assets/img/icons/apartment-icon5.svg" alt="">
-                                </div>
-                                <div class="text">
-                                    <a href="#">Building Wifi Free </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6">
-                            <div class="list-area">
-                                <div class="icons">
-                                    <img src="assets/img/icons/apartment-icon6.svg" alt="">
-                                </div>
-                                <div class="text">
-                                    <a href="#">Sun Loungers </a>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="project_plan mt-5">
+                      <h3>Project Plan</h3>
+                     <img src="assets/images/project-plan.jpeg" alt="">
                     </div>
 
-                    <div class="space32"></div>
-                    <div class="col-lg-12 contact-inner-area">
-                      <div class="contact-inner-boxarea">
-                        <div class="contact-input-section">
-                          <h3>Send us a Message</h3>
-                          <div class="space16"></div>
-                          <p>Contact us today and let's start your journey to urban living excellence. <br> Our team at Hosue is here answer your questions, schedule viewings.</p>
-                          <div class="space12"></div>
+                    <div class="project_plan my-5">
+                      <h3>Project Gallery</h3>
+                      <div class="project_gallery">
+                        <div style="overflow:hidden" id="fancy_gallery">
+                          <div class="container">
+                              <div class="row myFancyGallery gallery_row_main">
 
-                          <div class="row">
-                              <div class="col-lg-6">
-                                  <div class="space20"></div>
-                                  <div class="input-area">
-                                      <input type="text" placeholder="Full Name">
+                                  <div class="fancy_item mb-3">
+                                      <a href="assets/images/duplex-homes.jpeg" data-fancybox="gallery" data-caption="Caption #1">
+                                          <img src="assets/images/duplex-homes.jpeg"/>
+                                      </a>
                                   </div>
-                              </div>
-
-                              <div class="col-lg-6">
-                                  <div class="space20"></div>
-                                  <div class="input-area">
-                                      <input type="email" placeholder="Email">
-                                  </div>
-                              </div>
-
-                              <div class="col-lg-6">
-                                  <div class="space20"></div>
-                                  <div class="input-area">
-                                      <input type="number" placeholder="Phone">
-                                  </div>
-                              </div>
-
-                              <div class="col-lg-6">
-                                <div class="space20"></div>
-                                <div class="input-area">
-                                    <input type="text" placeholder="Address">
+                                  <div class="fancy_item mb-3">
+                                    <a href="assets/images/custom-home-design.jpeg" data-fancybox="gallery" data-caption="Caption #1">
+                                        <img src="assets/images/custom-home-design.jpeg"/>
+                                    </a>
                                 </div>
+                                <div class="fancy_item mb-3">
+                                  <a href="assets/images/single-storey-hones.jpeg" data-fancybox="gallery" data-caption="Caption #1">
+                                      <img src="assets/images/single-storey-hones.jpeg"/>
+                                  </a>
                               </div>
-                              <div class="col-lg-12">
-                                  <div class="space20"></div>
-                                  <div class="input-area">
-                                      <textarea placeholder="Your Message*"></textarea>
-                                  </div>
-                              </div>
-                              <div class="col-lg-12">
-                                  <div class="space32"></div>
-                                  <div class="input-area text-start">
-                                     <button type="submit" class="header-btn4">Send Message</button>
-                                  </div>
+                              <div class="fancy_item mb-3">
+                                <a href="assets/images/acerage-homes.jpeg" data-fancybox="gallery" data-caption="Caption #1">
+                                    <img src="assets/images/acerage-homes.jpeg"/>
+                                </a>
+                            </div>
+                            <div class="fancy_item mb-3">
+                              <a href="assets/images/split-level-homes.jpeg" data-fancybox="gallery" data-caption="Caption #1">
+                                  <img src="assets/images/split-level-homes.jpeg"/>
+                              </a>
+                             </div>
+                             <div class="fancy_item mb-3">
+                              <a href="assets/images/duplex-homes.jpeg" data-fancybox="gallery" data-caption="Caption #1">
+                                  <img src="assets/images/duplex-homes.jpeg"/>
+                              </a>
+                          </div>
+                          <div class="fancy_item mb-3">
+                            <a href="assets/images/custom-home-design.jpeg" data-fancybox="gallery" data-caption="Caption #1">
+                                <img src="assets/images/custom-home-design.jpeg"/>
+                            </a>
+                        </div>
+                        <div class="fancy_item mb-3">
+                          <a href="assets/images/single-storey-hones.jpeg" data-fancybox="gallery" data-caption="Caption #1">
+                              <img src="assets/images/single-storey-hones.jpeg"/>
+                          </a>
+                      </div>
+
                               </div>
                           </div>
                         </div>
                       </div>
                     </div>
+
+                    <div class="my-4 d-flex justify-content-start">
+                      <div class="sharethis-inline-share-buttons ml-0 pl-0"></div>
+                    </div>
+  
                 </div>
             </div>
             <div class="col-lg-5">
                 <div class="details-leftarea">
-                    <div class="project_plan">
-                         <h3>Project Plan</h3>
-                        <img src="assets/images/project-plan.jpeg" alt="">
-                    </div>
 
-                    <div class="space40"></div>
-                    <div class="details-area">
-                      <h3>Project Gallery</h3>
-                      <div class="space32"></div>
-                      <div class="details-slider owl-carousel">
-                          <div class="img1">
-                              <img src="assets/img/all-images/apartment/apartment-img25.png" alt="">
-                          </div>
-                          <div class="img1">
-                              <img src="assets/img/all-images/apartment/apartment-img25.png" alt="">
-                          </div>
-                          <div class="img1">
-                              <img src="assets/img/all-images/apartment/apartment-img25.png" alt="">
-                          </div>
-                      </div>
-                    </div>
-                    
-                    <div class="space40"></div>
                     <div class="blog-details-leftarea">
                       <div class="blog-details-left">
                         <div class="category-area">
@@ -410,6 +342,50 @@
                       </div>
                       </div>
                     </div>
+                    <div class="space40"></div>
+                    <div class="blog-details-leftarea">
+                      <div class="blog-details-left">
+                        <div class="category-area">
+                          <h3>Our Services</h3>
+                          <div class="space8"></div>
+                          <ul>
+                            <li><a href="#"><span>Custom Home Design</span> <span><i class="fa-solid fa-angle-right"></i></span></a></li>
+                            <li><a href="#"><span>New Home Design</span> <span><i class="fa-solid fa-angle-right"></i></span></a></li>
+                            <li><a href="#"><span>Knock Down Rebuild</span> <span><i class="fa-solid fa-angle-right"></i></span></a></li>
+                            <li><a href="#"><span>Interior Design</span> <span><i class="fa-solid fa-angle-right"></i></span></a></li>
+                            <li><a href="#"><span>House & Land Packages</span> <span><i class="fa-solid fa-angle-right"></i></span></a></li>
+                            <li><a href="#"><span>Land Subdivision</span> <span><i class="fa-solid fa-angle-right"></i></span></a></li>                            
+                          </ul>
+                      </div>
+                      </div>
+                    </div>
+
+                    <div class="space32"></div>
+                    <div class="hero10-section-area py-0 form_cta_main form_cta_serv">
+                      <div class="header-contact-box banner_form form_banner1 cta_form_allscreen pdtp">
+                        <h3>Message Us:</h3>
+                        <div class="row mt-2">
+                          <div class="input-area w-50">
+                            <input type="text" placeholder="Full Name*">
+                          </div>
+                          <div class="input-area w-50">
+                              <input type="number" placeholder="Phone Number*">
+                          </div>
+                          <div class="input-area w-50">
+                            <input type="email" placeholder="Email">
+                          </div>
+                          <div class="input-area w-50">
+                              <input type="test" placeholder="Address">
+                          </div>
+                          <div class="input-area w-100">
+                            <textarea placeholder="Your Message*"></textarea>
+                          </div>
+                        </div>
+                        <div class="input-area text-start btn_bg_dark">
+                            <button type="submit" class="header-btn11">Submit Now <i class="fa-solid fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -584,6 +560,26 @@
 <script src="assets/js/plugins/ScrollTrigger.min.js"></script>
 <script src="assets/js/plugins/Splitetext.js"></script>
 <script src="assets/js/main.js"></script>
+
+
+<!-- for gallery fancybox -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.js" integrity="sha512-j7/1CJweOskkQiS5RD9W8zhEG9D9vpgByNGxPIqkO5KrXrwyDAroM9aQ9w8J7oRqwxGyz429hPVk/zR6IOMtSA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script>
+   $('[data-fancybox="gallery"]').fancybox({
+    buttons: [
+      "share",
+      "download",
+    //   "zoom",
+      "slideShow",
+      "fullscreen",
+      "thumbs",
+      "close"
+     ],
+   });
+</script>
+
 
 </body>
 </html>
